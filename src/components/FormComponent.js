@@ -14,8 +14,8 @@ const FormComponent = () => {
     const [showpopup, setShowpopup] = useState(false)
 
     const onSubmitForm = () => {
-        // setShowpopup(true);
-        <Link to="/success-page">Home</Link>
+        setShowpopup(true);
+        // <Link to="/success-page">Home</Link>
     }
 
     return (
@@ -41,7 +41,6 @@ const FormComponent = () => {
 
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
-                <Link to="/success-page">Home</Link>
             </form>
         </>
     )
